@@ -1,0 +1,31 @@
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#title {
+    background-color: lightpink;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: 100px;
+}
+
+#artist {
+    background-color: lightblue;
+    font-family: 'Snell Roundhand', cursive;
+    font-size: 75px;
+}
+
+#button {
+    width: 2cm;
+    height: 1.5cm;
+    border-radius: .25cm;
+    background-color: lightslategrey;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#button:hover {
+    background-color: lightyellow;
+}
